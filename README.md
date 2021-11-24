@@ -39,10 +39,10 @@ If you want to know what the project currently consists of, check
 
 ## Modules
 
-`compare` - set of functions responsible for comparing files
-`compress` - set of functions responsible for compressing files
-`count` - set of functions responsible for counting elements in a file
-`modify` - set of functions responsible for modifying files
+`compare` - set of functions responsible for comparing files  
+`compress` - set of functions responsible for compressing files  
+`count` - set of functions responsible for counting elements in a file  
+`modify` - set of functions responsible for modifying files  
 
 ## Installation
 
