@@ -13,6 +13,17 @@
 According to [Wikipedia](https://en.wikipedia.org/wiki/Industry_Foundation_Classes):
 > The **Industry Foundation Classes (IFC)** data model is intended to describe architectural, building and construction industry data.
 
+IFC format provides interoperability. This way, it doesn't matter what 
+software you work on or what file format you deal with on a daily basis. 
+There is a high probability that your software has import and export 
+functions for .ifc files. Learn more about IFC format 
+[here](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/).
+
+At this point, the project is in development. If you have any ideas on how it 
+can be improved check [Contributions](https://github.com/tbrus/pyifc#contributions). 
+If you want to know what the project currently consists of, check 
+[Modules](https://github.com/tbrus/pyifc#modules).
+
 ## Table of Contents
 
 [Modules](https://github.com/tbrus/pyifc#modules) | 
