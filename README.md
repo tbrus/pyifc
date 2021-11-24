@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/tbrus/pyifc/blob/master/logo.png?raw=true"/>
+</p>
+
 # pyifc: Utilities for .ifc files
 
 ## What is it?
