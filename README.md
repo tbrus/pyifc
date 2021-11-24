@@ -4,6 +4,8 @@
 
 # pyifc: Utilities for .ifc files
 
+[![License](https://img.shields.io/github/license/tbrus/pyifc)](https://github.com/tbrus/pyifc)
+
 ## What is it?
 
 **pyifc** is a Python package that provides utilities for working with .ifc files.
