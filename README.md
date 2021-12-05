@@ -67,9 +67,11 @@ If you found a solution, feel free to add a new pull request.
 
 ## Changelog
 
+See [CHANGELOG.md](https://github.com/tbrus/pyifc/blob/master/CHANGELOG.md).
 
 ## Contributions
 
+See [CONTRIBUTING.md](https://github.com/tbrus/pyifc/blob/master/CONTRIBUTING.md).
 
 ## Code of Conduct
 
