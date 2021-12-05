@@ -70,6 +70,8 @@ If you found a solution, feel free to add a new pull request.
 
 ## Code of Conduct
 
+Everyone interacting in the pyifc project's development is expected to follow 
+the [Code of Conduct](https://github.com/tbrus/pyifc/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
