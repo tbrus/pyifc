@@ -41,6 +41,9 @@ If you want to know what the project currently consists of, check
 
 `compare` - set of functions responsible for comparing files  
 `compress` - set of functions responsible for compressing files  
+
+In the future:
+
 `count` - set of functions responsible for counting elements in a file  
 `modify` - set of functions responsible for modifying files  
 
