@@ -30,7 +30,6 @@ If you want to know what the project currently consists of, check
 [Installation](https://github.com/tbrus/pyifc#installation) | 
 [Documentation](https://github.com/tbrus/pyifc#documentation) | 
 [Usage](https://github.com/tbrus/pyifc#usage) | 
-[Have a question?](https://github.com/tbrus/pyifc#have-a-question) | 
 [Found a bug?](https://github.com/tbrus/pyifc#found-a-bug) | 
 [Changelog](https://github.com/tbrus/pyifc#changelog) | 
 [Contributions](https://github.com/tbrus/pyifc#contributions) | 
@@ -54,9 +53,6 @@ In the future:
 
 
 ## Usage
-
-
-## Have a question?
 
 
 ## Found a bug?
