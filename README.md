@@ -48,6 +48,45 @@ In the future:
 
 ## Installation
 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install 
+pyifc.
+
+```bash
+pip install pyifc
+```
+
+Unfortunately dependency package `ifcopenshell` is not distributed via PyPi. 
+Hence you can get error while trying to import pyifc:
+
+```bash
+ModuleNotFoundError: No module named 'ifcopenshell'
+```
+
+To install `ifcopenshell` run from current directory:
+
+```bash
+python init_script.py
+```
+
+The script will download ifcopenshell based on given or automatically 
+detected arguments. Possible arguments are listed below:
+
+```python init_script.py -h
+usage: init_script.py [-h] [-s {linux,win,macos}] [-a {32,64}] [-v {37,38,39}]
+
+Download ifcopenshell based on platform system, platform architecture 
+and running python version.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s {linux,win,macos}, --system {linux,win,macos}
+                        Platform system.
+  -a {32,64}, --architecture {32,64}
+                        Platform architecture.
+  -v {37,38,39}, --python-version {37,38,39}
+                        Running python version; string of major and 
+                        minor version, e.g. '39'. pyifc supports python >= 3.7.
+```
 
 ## Documentation
 
