@@ -198,7 +198,10 @@ def main():
     # downloaded package
     print("Moving files...")
     source_dir = os.path.join(os.getcwd(), "ifcopenshell")
-    target_dir = os.path.join(site.getsitepackages()[0])
+    if args.system == 'win':
+        target_dir = site.getsitepackages()[1]
+    else:
+        target_dir = site.getsitepackages()[0]
     target = os.path.join(target_dir, "ifcopenshell")
     if os.path.exists(target):
         print("Found ifcopenshell in packages")
