@@ -43,7 +43,7 @@ def get_system():
             'linux', 'windows', 'darwin'.
 
     Returns:
-        [str]: platform system.
+        str: platform system.
     """
     if platform.system().lower() == "linux":
         system = "linux"
@@ -64,7 +64,7 @@ def get_architecture():
     """Get platform architecture.
 
     Returns:
-        [str]: platform architecture. One of values: '32' or '64'.
+        str: platform architecture. One of values: '32' or '64'.
     """
     architecture_bit = platform.architecture()[0]
     architecture_list = [i for i in architecture_bit if i.isdigit()]
@@ -81,7 +81,7 @@ def get_python_version():
     pyifc supports python >= 3.7.
 
     Returns:
-        [str]: current python version
+        str: current python version
     """
     python_major = str(sys.version_info.major)
     python_minor = str(sys.version_info.minor)
@@ -112,9 +112,9 @@ def get_args():
 
     Returns:
         [argparse.Namespace]: Namespace containing 3 values:
-            - [str] - args.system
-            - [str] - args.architecture
-            - [str] - args.python_version
+            - str - args.system
+            - str - args.architecture
+            - str - args.python_version
     """
     description = (
         "Download ifcopenshell based on platform system, "
