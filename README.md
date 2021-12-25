@@ -49,14 +49,15 @@ In the future:
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install 
-pyifc.
+**pyifc**.
 
 ```bash
 pip install pyifc
 ```
 
-Unfortunately dependency package `ifcopenshell` is not distributed via PyPi. 
-Hence you can get error while trying to import pyifc:
+Unfortunately dependency package [ifcopenshell](http://ifcopenshell.org/python) 
+is not distributed via PyPi. Hence you can get error while trying to 
+import pyifc:
 
 ```bash
 ModuleNotFoundError: No module named 'ifcopenshell'
@@ -71,7 +72,8 @@ python init_script.py
 The script will download ifcopenshell based on given or automatically 
 detected arguments. Possible arguments are listed below:
 
-```python init_script.py -h
+```bash
+python init_script.py -h
 usage: init_script.py [-h] [-s {linux,win,macos}] [-a {32,64}] [-v {37,38,39}]
 
 Download ifcopenshell based on platform system, platform architecture 
