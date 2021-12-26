@@ -6,6 +6,10 @@
 
 [![License](https://img.shields.io/github/license/tbrus/pyifc)](https://github.com/tbrus/pyifc)
 
+[![Code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+
 ## What is it?
 
 **pyifc** is a Python package that provides utilities for working with .ifc files.
@@ -13,50 +17,50 @@
 According to [Wikipedia](https://en.wikipedia.org/wiki/Industry_Foundation_Classes):
 > The **Industry Foundation Classes (IFC)** data model is intended to describe architectural, building and construction industry data.
 
-IFC format provides interoperability. This way, it doesn't matter what 
-software you work on or what file format you deal with on a daily basis. 
-There is a high probability that your software has import and export 
-functions for .ifc files. Learn more about IFC format 
+IFC format provides interoperability. This way, it doesn't matter what
+software you work on or what file format you deal with on a daily basis.
+There is a high probability that your software has import and export
+functions for .ifc files. Learn more about IFC format
 [here](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/).
 
-At this point, the project is in development. If you have any ideas on how it 
-can be improved check [Contributions](https://github.com/tbrus/pyifc#contributions). 
-If you want to know what the project currently consists of, check 
+At this point, the project is in development. If you have any ideas on how it
+can be improved check [Contributions](https://github.com/tbrus/pyifc#contributions).
+If you want to know what the project currently consists of, check
 [Modules](https://github.com/tbrus/pyifc#modules).
 
 ## Table of Contents
 
-[Modules](https://github.com/tbrus/pyifc#modules) | 
-[Installation](https://github.com/tbrus/pyifc#installation) | 
-[Documentation](https://github.com/tbrus/pyifc#documentation) | 
-[Usage](https://github.com/tbrus/pyifc#usage) | 
-[Found a bug?](https://github.com/tbrus/pyifc#found-a-bug) | 
-[Changelog](https://github.com/tbrus/pyifc#changelog) | 
-[Contributions](https://github.com/tbrus/pyifc#contributions) | 
-[Code of Conduct](https://github.com/tbrus/pyifc#code-of-conduct) | 
+[Modules](https://github.com/tbrus/pyifc#modules) |
+[Installation](https://github.com/tbrus/pyifc#installation) |
+[Documentation](https://github.com/tbrus/pyifc#documentation) |
+[Usage](https://github.com/tbrus/pyifc#usage) |
+[Found a bug?](https://github.com/tbrus/pyifc#found-a-bug) |
+[Changelog](https://github.com/tbrus/pyifc#changelog) |
+[Contributions](https://github.com/tbrus/pyifc#contributions) |
+[Code of Conduct](https://github.com/tbrus/pyifc#code-of-conduct) |
 [License](https://github.com/tbrus/pyifc#license)
 
 ## Modules
 
-`compress` - set of functions responsible for compressing files  
+`compress` - set of functions responsible for compressing files
 
 In the future:
 
-`compare` - set of functions responsible for comparing files  
-`count` - set of functions responsible for counting elements in a file  
-`modify` - set of functions responsible for modifying files  
+`compare` - set of functions responsible for comparing files
+`count` - set of functions responsible for counting elements in a file
+`modify` - set of functions responsible for modifying files
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install
 **pyifc**.
 
 ```bash
 pip install pyifc
 ```
 
-Unfortunately dependency package [ifcopenshell](http://ifcopenshell.org/python) 
-is not distributed via PyPi. Hence you can get error while trying to 
+Unfortunately dependency package [ifcopenshell](http://ifcopenshell.org/python)
+is not distributed via PyPi. Hence you can get error while trying to
 import pyifc:
 
 ```bash
@@ -69,14 +73,14 @@ To install `ifcopenshell` run from current directory:
 python init_script.py
 ```
 
-The script will download ifcopenshell based on given or automatically 
+The script will download ifcopenshell based on given or automatically
 detected arguments. Possible arguments are listed below:
 
 ```bash
 python init_script.py -h
 usage: init_script.py [-h] [-s {linux,win,macos}] [-a {32,64}] [-v {37,38,39}]
 
-Download ifcopenshell based on platform system, platform architecture 
+Download ifcopenshell based on platform system, platform architecture
 and running python version.
 
 optional arguments:
@@ -86,7 +90,7 @@ optional arguments:
   -a {32,64}, --architecture {32,64}
                         Platform architecture.
   -v {37,38,39}, --python-version {37,38,39}
-                        Running python version; string of major and 
+                        Running python version; string of major and
                         minor version, e.g. '39'. pyifc supports python >= 3.7.
 ```
 
@@ -98,8 +102,8 @@ optional arguments:
 
 ## Found a bug?
 
-Feel free to add a new issue on the the 
-[pyifc repository](https://github.com/tbrus/my-own-package/issues). 
+Feel free to add a new issue on the the
+[pyifc repository](https://github.com/tbrus/my-own-package/issues).
 If you found a solution, feel free to add a new pull request.
 
 ## Changelog
@@ -112,7 +116,7 @@ See [CONTRIBUTING.md](https://github.com/tbrus/pyifc/blob/master/CONTRIBUTING.md
 
 ## Code of Conduct
 
-Everyone interacting in the pyifc project's development is expected to follow 
+Everyone interacting in the pyifc project's development is expected to follow
 the [Code of Conduct](https://github.com/tbrus/pyifc/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
