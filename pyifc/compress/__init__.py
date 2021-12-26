@@ -1,6 +1,6 @@
 """
 pyifc.compress
--------------
+--------------
 
-Compress .ifc files.
+Functions for compressing .ifc files.
 """
