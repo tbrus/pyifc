@@ -46,9 +46,9 @@ If you want to know what the project currently consists of, check
 
 In the future:
 
-`compare` - set of functions responsible for comparing files
-`count` - set of functions responsible for counting elements in a file
-`modify` - set of functions responsible for modifying files
+`compare` - set of functions responsible for comparing files  
+`count` - set of functions responsible for counting elements in a file  
+`modify` - set of functions responsible for modifying files  
 
 ## Installation
 
