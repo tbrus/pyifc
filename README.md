@@ -128,3 +128,5 @@ the [Code of Conduct](https://github.com/tbrus/pyifc/blob/master/CODE_OF_CONDUCT
 `compress` module is created based on:
 * [*IFCCompressor: A content-based compression algorithm for otpimizing Industry Foundation Classes files*](http://cgcad.thss.tsinghua.edu.cn/liuyushen/main/pdf/LiuYS_AIC15IFCCompressor.pdf), Jing Sun, Yu-Shen Liu, Ge Gao, Xiao-Guang Han
 * [*IfcOpenShell Optimizer tutorial*](https://academy.ifcopenshell.org/posts/ifcopenshell-optimizer-tutorial/) by Johan Luttun
+
+Test data is available on [link](http://cgcad.thss.tsinghua.edu.cn/liuyushen/IFCCompressor/).
