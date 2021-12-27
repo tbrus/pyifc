@@ -11,19 +11,19 @@ from typing import Dict
 import ifcopenshell
 from toposort import toposort_flatten
 
-from pyifc.compress._validators import existing_validator, extension_validator
+from pyifc.compress._validators import existence_validator, extension_validator
 
 
 def get_instances_and_references(file):
-    """Returns dictionary of instances and their references from
+    """Returns dictionary of instances ids and their references from
     .ifc file.
 
     Args:
-        file (ifcopenshell.file.file): ifc file object returned by
+        file (ifcopenshell.file.file): .ifc file object returned by
             ifcopenshell.open() function.
 
     Returns:
-        dict: dictionary of instances ids mapped to its references
+        dict: dictionary of instances ids mapped to its references.
     """
     dict_ = dict()
 
@@ -75,8 +75,8 @@ def compress(input_filepath, output_dir, output_filename):
         extension=".ifc",
         variable="output_filename",
     )
-    existing_validator(input_filepath)
-    existing_validator(output_dir)
+    existence_validator(input_filepath)
+    existence_validator(output_dir)
 
     # Schema from the file should be applied to the new file to maintain
     # compatibility
@@ -121,7 +121,7 @@ def compress(input_filepath, output_dir, output_filename):
                 instance_type, *instance_attrs
             )
 
-    output_filepath = os.path.join(output_dir, output_filename)
+    output_filepath = os.path.abspath(os.path.join(output_dir, output_filename))
     new_file.write(output_filepath)
 
     return output_filepath

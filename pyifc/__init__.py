@@ -8,7 +8,8 @@ pyifc is a Python package that provides utilities for working with .ifc files.
 """
 
 from pyifc import compress
+from pyifc._version import version
 
-__version__ = "0.0.2"
+__version__ = version
 
 __all__ = ["compress"]

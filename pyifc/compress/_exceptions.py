@@ -1,6 +1,6 @@
 """
 pyifc.compress._exceptions
---------------------
+--------------------------
 
 Exceptions used in pyifc.compress module.
 """
