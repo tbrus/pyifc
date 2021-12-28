@@ -121,7 +121,9 @@ def compress(input_filepath, output_dir, output_filename):
                 instance_type, *instance_attrs
             )
 
-    output_filepath = os.path.abspath(os.path.join(output_dir, output_filename))
+    output_filepath = os.path.abspath(
+        os.path.join(output_dir, output_filename)
+    )
     new_file.write(output_filepath)
 
-    return output_filepath
+    return os.path.abspath(output_filepath)
