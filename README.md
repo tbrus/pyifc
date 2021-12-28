@@ -69,7 +69,7 @@ import pyifc:
 ModuleNotFoundError: No module named 'ifcopenshell'
 ```
 
-To install `ifcopenshell` for python use 
+To install **ifcopenshell for python** use 
 [install-ifcopenshell-python](https://github.com/tbrus/install-ifcopenshell-python). 
 You can simply run:
 
