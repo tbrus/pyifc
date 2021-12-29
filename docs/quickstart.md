@@ -50,10 +50,13 @@ import ifcopenshell
 from pyifc import compress
 
 path = "example_file.ifc"
+input_filepath = "example_file_archive_zip.ifc"
+output_dir = "."
+output_filename = "example_file_compressed.ifc"
 
 # Compress .ifc file
-compress(path)
+compress.compress(path, output_dir, output_filename)
 
 # Compress .ifc file and write to .zip archive
-compress_and_zip(path)
+compress.compress_and_zip(input_filepath, output_dir, output_filename)
 ```
