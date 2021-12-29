@@ -90,7 +90,7 @@ For more informations check
 ## Documentation
 
 The official documentation is hosted on ReadTheDocs: 
-[Documentation](pyifc.readthedocs.io).
+[Documentation](http://pyifc.readthedocs.io).
 
 ## Found a bug?
 
