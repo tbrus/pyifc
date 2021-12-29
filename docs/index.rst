@@ -9,7 +9,6 @@
    changelog
    quickstart
    api
-   examples
 
 .. toctree::
    :maxdepth: 2
