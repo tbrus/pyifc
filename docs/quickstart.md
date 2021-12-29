@@ -53,10 +53,11 @@ path = "example_file.ifc"
 input_filepath = "example_file_archive_zip.ifc"
 output_dir = "."
 output_filename = "example_file_compressed.ifc"
+archive_filename = "example_file_archive.zip"
 
 # Compress .ifc file
 compress.compress(path, output_dir, output_filename)
 
 # Compress .ifc file and write to .zip archive
-compress.compress_and_zip(input_filepath, output_dir, output_filename)
+compress.compress_and_zip(input_filepath, output_dir, archive_filename)
 ```
